@@ -9,6 +9,10 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
 	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -28,6 +32,11 @@
 					<input id="search-input" type="text" placeholder="Enter your movie here"/>
 					<button type="submit" class="btn btn-primary"> Search</button>
 				</form>
+			</div>
+			<div class="col-sm-12 text-center">
+				<button id="all-genres" class="btn btn-primary">All</button>
+				<button id="adventure" class="btn btn-danger">Adventure</button>
+				<button id="action" class="btn btn-warning">Action</button>
 			</div>
 
 
@@ -51,6 +60,8 @@
       <div class="modal-body">
         ...
       </div>
+      <div class="cast"><strong>CAST</strong></div>
+      <div class="mod-body"></div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
